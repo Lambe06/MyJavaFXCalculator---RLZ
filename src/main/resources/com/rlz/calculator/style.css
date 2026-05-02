@@ -1,0 +1,11 @@
+.button:hover {
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-cursor: hand;
+
+    /* Forza il testo a rimanere visibile */
+    -fx-text-overrun: clip;
+    /* Riduce lo spazio interno per far stare il bordo senza stringere il testo */
+    -fx-padding: -2px;
+}
