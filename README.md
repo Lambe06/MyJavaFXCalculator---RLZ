@@ -13,7 +13,8 @@ interface.fxml: The visual blueprint of the calculator. Created with Scene Build
 Controller.java: The "brain" of the app. It bridges the UI and the logic, handling button clicks, performing mathematical operations, and managing the display updates.
 
 FOR USERS: 
-If you're not a developer, you can download the .exe file from the RELEASE section in the same repository and execute it on your pc
+If you're not a developer, you can download the .exe file from the RELEASE section in the same repository and execute it on your pc (only for Windows!!). If you have MAC OS or other OS, I have created the .jar file and you must download a JAVA version on your PC to execute it!
+
 
 FOR DEVELOPERS: 
 You can clone or download the entire project directory. Since it's a **Maven** project, you can run it in any IDE (IntelliJ, VS Code, Eclipse)
