@@ -8,7 +8,7 @@ import javafx.scene.control.TextField;
 public class Controller {
 
     @FXML
-    private TextField display; //è il display della calcolatrice
+    private TextField display; 
 
     private double numero1 = 0;
     private String operatore = "";
@@ -53,7 +53,7 @@ public class Controller {
                 case "-" -> risultato = numero1 - numero2;
                 case "*" -> risultato = numero1 * numero2;
                 case "/" -> {
-                    if (numero2 != 0) { //verifica denominatore diverso da 0
+                    if (numero2 != 0) { 
                         risultato = numero1 / numero2;
                     } else {
                         display.setText("Errore");
