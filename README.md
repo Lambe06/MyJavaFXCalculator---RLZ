@@ -6,6 +6,7 @@ This is my first work with the JavaFX GUI, but I hope you'll enjoy it anyway!
 The project is a simple calculator, developed using JAVA and JAVAFX
 
 The Application is divided in 3 files : 
+
 CalculatorApp.java: The entry point of the application. It handles the stage setup, loads the FXML layout, and applies the custom CSS styles.
 
 interface.fxml: The visual blueprint of the calculator. Created with Scene Builder, it defines the layout, buttons, and the display area.
